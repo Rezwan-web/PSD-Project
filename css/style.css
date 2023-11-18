@@ -1,0 +1,501 @@
+/* ======================== fonts links css part start ========================  */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;900&family=Roboto:wght@700&display=swap');
+
+/* --------------------------- fonts links css part end ------------------------ */
+
+/* ======================== common css part start ========================  */ 
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.clr{
+    clear: both;
+}
+/* --------------------------- navbar css part end ------------------------ */
+
+#main_menu{
+    width: 100%;
+    height: 90px;
+    background: black;
+}
+.menu_row{
+    line-height: 90px;
+}
+.menu_row .logo_col{
+    width: 30%;
+    float: left;
+}
+.menu_row .logo_col img{
+    width: 100px;
+    height: 25px;
+}
+.menu_row .menu_col{
+    width: 70%;
+     float: left;
+}
+.menu_row .menu_col ul{
+    float: right;
+}
+.menu_row .menu_col ul li{
+float: left;
+}
+.menu_row .menu_col ul li a{
+    font-size: 14px;
+    font-weight: 77;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    margin-left: 44px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.menu_row .menu_col ul li a:hover{
+     color: #28b8d8;
+}
+
+/* ======================== navbar css part start ========================  */ 
+
+#banner{
+    padding-top:241px; ;
+    padding-bottom: 252px;
+    background: url('../images/banner.png');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+.bannar_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.bannar_text h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    text-align: center;
+    letter-spacing: 7px;
+}
+.bannar_text p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* --------------------------- common css part end ------------------------ */
+
+/* ======================== about css part start ========================  */ 
+#about_services{
+    padding: 79px;
+    background: #f9f9f9;
+    margin-bottom: 82px;
+}
+#about_services .about_text h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family:'Roboto Slab', serif;;
+    color: #444444;
+    text-align: center;
+}
+#about_services .about_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Roboto Slab', serif;;
+    color: #666666;
+    margin-top: 30px;
+    margin-bottom: 79px;
+    text-align: center;
+
+}
+#about_services .about_text h3{
+    font-size: 18px;
+    font-weight: 700;
+   font-family:'Roboto Slab', serif;;
+   color: #444444;
+   text-transform: uppercase;
+   text-align: center;
+  }
+  .services_row{
+    margin-top: 30px;
+  }
+
+.services_row .services_col{
+    width: 365px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+.services_row .services_col:nth-child(3){
+    margin: 0;
+}
+.services_col .services_text h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.services_col .services_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Roboto Slab', serif;;
+    color: #666666;
+    text-align: center;
+}
+
+/* --------------------------- aboutcss part end ------------------------ */
+/* ======================== instra shorts  css part start ========================  */ 
+#instra_shorts{
+    padding: 50px 0;
+    background: #2c2c2c;
+}
+.common_head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family:'Roboto Slab', serif;;
+    color: #d5d5d5;
+    text-align: center;
+    position: relative;
+}
+.common_head h2::before{
+content: '';
+width: 100px;
+height: 1px;
+background: #535353;
+position: absolute;
+top: 50%;
+left: 30%;
+}
+.common_head h2::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    position: absolute;
+    top: 50%;
+    right: 30%;      
+}
+.instra_row{
+    margin-top: 44px;
+}
+.instra_col img{
+    width: 314px;
+}
+.instra_col{
+    float: left;
+}
+.instar_button{
+    text-align: center;
+    margin-top: 56px;
+}
+.instar_button a{
+    width: 177px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px solid #797979;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+}
+/* --------------------------- instra shorts css part end ------------------------ */
+
+/* ======================== journal css part start ========================  */ 
+#journal .common_head h2{
+    padding-top: 77px;
+    padding-bottom: 85px;
+    
+}
+#journal .common_head h2{
+    color: #444444;
+   
+}
+#journal .common_head h2::before {
+    background: #d9d9d9;
+    left: 34%;
+    
+}
+#journal .common_head h2::after { 
+    background: #d9d9d9;
+    right: 34%;
+   
+   
+}
+.journal_col{
+    width: 345px;
+    height: 459px;
+    padding: 24px 0;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 36px;
+   
+
+}
+.journal_row .journal_col:nth-child(3){
+    margin-right: 0;
+}
+
+
+.journal_col .journal_head h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family:'Roboto Slab', serif;;
+    color: #444444;
+    text-align: center;
+        
+}
+.journal_col .journal_head p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-align: center;
+    margin-top: 11px;
+    margin-bottom: 22px;
+    
+   
+}
+.journal_text p{
+font-size: 14px;
+font-weight: 400;
+font-family: 'Roboto', sans-serif;
+color: #666666;
+margin: 25px 27px 25px 25px;
+
+
+}
+.read_more_row .continue p{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    position: relative;
+    text-transform: uppercase;
+    
+  }
+.read_more_row .continue p::after{
+    content: '';
+    width: 102px;
+    height: 1px;
+    background: #28b8d8;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+
+
+/* --------------------------- journal css part end ------------------------ */
+/* ======================== resume css part start ========================  */ 
+#resume{
+    padding-top: 81px;
+   
+}
+.resume_head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.resume_head h2::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 32%;
+}
+.resume_head_one h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.resume_head_one h2::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+} 
+
+.resume_col_one{
+    float: left;
+}
+.resume_pic_text .pic_col{
+    float: left;
+}
+.resume_pic_text .pic_col img{
+    width: 196px;
+}
+.resume_text_col{
+    margin-left: 26px;
+    float: left;
+}
+.resume_text_col p{
+    width: 345px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    line-height: 23px;
+}
+.resume_text_col p span{
+    font-size: 18px;
+    font-weight: 300;
+    font-family:'Roboto Slab', serif;;
+    margin-bottom: 27px;
+    display: inline-block;
+}
+.resume_col_tow{
+    float: left;
+    margin-left: 37px;
+}
+.resume_icon_text_row .icon_col{
+    float: left;
+
+}
+.resume_icon_text_row .icon_col img{
+    width: 40px;
+}
+.icon_text{
+    float: left;
+    padding-left: 23px;
+    margin-bottom: 30px;
+}
+.icon_text h2{
+    font-size: 17px;
+   font-weight: 700;
+   color: #444444;
+   font-family:'Roboto Slab', serif;;
+
+}
+.icon_text p{
+    width: 457px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin-top: 16px;
+}
+
+/* --------------------------- resume css part end ------------------------ */
+
+/* ======================== footer css part start ========================  */ 
+#footer{
+    padding-top: 68px;
+    background: #373737;
+}
+.footer_col{
+    float: left;
+    margin-right: 48px;
+   
+}
+.footer_col:nth-child(4){
+    margin-right: 0;
+}
+
+.footer_col .footer_col_head h2{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+   
+}
+.footer_text p{
+    width: 255px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin-top: 25px;
+    margin-bottom: 33px;
+   
+}
+.footer_contract ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin-bottom: 10px;
+    
+}
+.footer_contract ul li a .icon{
+    margin-right: 16px;
+    
+}
+.footer_contract ul li a .line_brack{
+    display: block;
+    margin-left: 30px;
+   
+}
+.footer_text .date_one{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif; 
+    color: #929292;
+    
+}
+.copyright{
+    width: 100%;
+    height: 91px;
+    background: #333333;
+}
+.copyright_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 91px;
+    color: #fff;
+}
+
+/* ---------------------------footer css part end ------------------------ */
+
+
+
